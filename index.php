@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edgar | Diseñador Web Freelance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+    <header class="flex justify-between items -center p-5 shadow-md sticky top-0 bg-white z-50">
+    <h1 class="text-2xl font-bold text-blue-600">Edgar</h1>
+    <nav class="space-x-6">
+        <a href="#servicios" class="hover:text-blue-600 font-medium">SERVICIOS</a>
+        <a href="#portafolio" class="hover:text-blue-600 font-medium">PORTAFOLIO</a>
+        <a href="#contacto" class="hover:text-blue-600 font-medium">CONTACTO</a>
+    </nav>
+</header>
+  <section class="text-center p-10 bg-blue-50">
+    <h2 class="text-4xl font-bold mb-4">Hola, soy Edgar 👋</h2>
+    <p class="text-lg text-gray-600 mb-6">Diseño y desarrollo sitios web modernos, responsivos y efectivos para ayudarte a destacar en línea.</p>
+    <a href="#contacto" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">Contáctame</a>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="p-10">
+    <h3 class="text-3xl font-bold text-center mb-8">Servicios</h3>
+    <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+      <div class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
+        <h4 class="text-xl font-bold text-blue-600 mb-2">Diseño Web</h4>
+        <p>Creo interfaces atractivas, intuitivas y enfocadas en la experiencia del usuario.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
+        <h4 class="text-xl font-bold text-blue-600 mb-2">Responsive</h4>
+        <p>Tu sitio se verá perfecto en computadoras, tablets y teléfonos móviles.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
+        <h4 class="text-xl font-bold text-blue-600 mb-2">Optimización SEO</h4>
+        <p>Posicionamiento básico para que más personas encuentren tu sitio web en Google.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
+        <h4 class="text-xl font-bold text-blue-600 mb-2">Mantenimiento</h4>
+        <p>Actualización, soporte y mejoras continuas para mantener tu web siempre al día.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyecto 1 -->
+   <section id="portafolio" class="p10">
+    <div class="bg-white p-4 shadow rounded-lg">
+      <a href="restaurante.html" target="_blank">
+        <img src="img/chef.png" alt="Proyecto 1" class="rounded mb-3 w-[100px] h-[100px] object-conver">
+        <h4 class="font-bold text-lg hover:text-blue-600">Landing Page Restaurante</h4>
+        <p class="text-sm text-gray-600">Diseño moderno con menú digital y contacto.</p>
+      </a>
+    </div>
+    
+    <!-- Proyecto 2 -->
+     <div class="bg-white p-4 shadow rounded-lg">
+      <a href="portafolio.html" target="_blank">
+        <img src="img/camara.png" alt="Proyecto 2" class="rounded mb-3 w-[100px] h-[50px] object-cover">
+        <h4 class="font-bold text-lg hover:text-blue-600">Portafolio Creativo</h4>
+        <p class="text-sm text-gray-600">Sitio personal para fotógrafos y artistas.</p>
+      </a>
+    </div>
+    
+    <!-- Proyecto 3 -->
+     <div class="bg-white p-4 shadow rounded-lg">
+      <a href="tienda.html" target="_blank">
+        <img src="img/tienda.jpg" alt="Proyecto 3" class="rounded mb-3 w-[100px] h-[50px] object-cover">
+        <h4 class="font-bold text-lg hover:text-blue-600">Tienda Virtual Demo</h4>
+        <p class="text-sm text-gray-600">E-commerce simple para mostrar productos.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="p-10">
+    <h3 class="text-3xl font-bold text-center mb-6">Contáctame</h3>
+    <div class="max-w-xl mx-auto">
+      <form action="https://formspree.io/f/tu-codigo-aqui" method="POST" class="space-y-4">
+        <input type="text" name="nombre" placeholder="Tu nombre" required class="w-full border p-3 rounded-lg">
+        <input type="email" name="correo" placeholder="Tu correo electrónico" required class="w-full border p-3 rounded-lg">
+        <textarea name="mensaje" placeholder="Escribe tu mensaje" required class="w-full border p-3 rounded-lg h-32"></textarea>
+        <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition">Enviar Mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-6 bg-blue-600 text-white">
+    <p>&copy; 2025 Daniel | Diseñador Web Freelance</p>
+    <div class="mt-2 space-x-4">
+      <a href="#" class="hover:underline">GitHub</a>
+      <a href="#" class="hover:underline">LinkedIn</a>
+      <a href="#" class="hover:underline">CV</a>
+    </div>
+  </footer>
+</body>
+</html>
